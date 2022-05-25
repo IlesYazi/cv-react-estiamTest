@@ -1,0 +1,85 @@
+import { useState } from "react";
+import { v4 as uuidv4 } from "uuid";
+import axios from "axios";
+import { useNavigate } from "react-router-dom";
+import { useEffect } from "react";
+
+const apiEndPoint = "http://localhost:3005/Formation";
+//json-server --watch formation.json --port 3005
+
+const Modification = () => {
+  const [formation, setFormation] = useState([]);
+
+  useEffect(() => {
+    const updateData = async () => {
+      const newFormation = await axios.get(apiEndPoint);
+      setFormation(newFormation.data);
+    };
+    updateData();
+  }, []);
+
+  const handleUpdate_title = async (form) => {
+    form.title = "Classe";
+    await axios.put(apiEndPoint + "/" + form.id, form);
+    const index = formation.indexOf(form);
+    formation[index] = form;
+    setFormation([...formation]);
+  };
+  const handleUpdate_date = async (form) => {
+    form.date = "Date";
+    await axios.put(apiEndPoint + "/" + form.id, form);
+    const index = formation.indexOf(form);
+    formation[index] = form;
+    setFormation([...formation]);
+  };
+  const handleUpdate_location = async (form) => {
+    form.location = "Lieux";
+    await axios.put(apiEndPoint + "/" + form.id, form);
+    const index = formation.indexOf(form);
+    formation[index] = form;
+    setFormation([...formation]);
+  };
+
+  const navigate = useNavigate();
+
+  return (
+    <div>
+      <tbody>
+        {formation.map((formations) => (
+          <tr key={formations.id}>
+            <td>{formations.title}</td>
+            <td>
+              <button
+                onClick={() => handleUpdate_title(formations)}
+                className="btn btn-danger btn-sm"
+              >
+                {" "}
+                Modifier le nom de la formation
+              </button>
+            </td>
+            <td>
+              <button
+                onClick={() => handleUpdate_date(formations)}
+                className="btn btn-danger btn-sm"
+              >
+                {" "}
+                Modifier la date
+              </button>
+            </td>
+            <td>
+              <button
+                onClick={() => handleUpdate_location(formations)}
+                className="btn btn-danger btn-sm"
+              >
+                {" "}
+                Modifier le lieux
+              </button>
+            </td>
+          </tr>
+        ))}
+      </tbody>
+    </div>
+  );
+};
+
+export default Modification;

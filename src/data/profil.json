@@ -1,0 +1,40 @@
+{
+  "Profil": [
+    {
+      "userId": 1,
+      "id": "1",
+      "photo": "./images/iles_profil.jpg",
+      "user_name": "Iles YAZI",
+      "user_profession": "Développeur Web",
+      "user_adress": "12 rue Frederick Lemaitre 75020 Paris",
+      "telephone": "0751408491",
+      "email": "iles.yazi@hotmail.fr",
+      "naissance": "2 juin 2001",
+      "localisation": "Paris",
+      "competence1": "Python",
+      "competence2": "React",
+      "competence3": "HTML / CSS",
+      "competence4": "JAVA",
+      "competence5": "PHP",
+      "interet": [
+        {
+          "id": "1",
+          "choix": "Informatique"
+        },
+        {
+          "id": "2",
+          "choix": "Sports"
+        },
+        {
+          "id": "3",
+          "choix": "Musique"
+        },
+        {
+          "id": "4",
+          "choix": "Lire"
+        }
+      ],
+      "resumer": "L’une des expériences qui m’a le plus marqué et qui me décrit le mieux, est mon passage en classes préparatoires aux grandes écoles à Paris. Cette expérience m’a permis d’acquérir beaucoup de compétence dans différents domaines que ce soit scolaire ou bien personnel. J’ai pu mettre en pratique ces compétence dans ma vie de tous les jours ainsi que dans mon travail personnel ou collectif dans l’intérêt du groupe. 📩 N'hésitez pas à me contacter par mail : iles.yazi@hotmail.fr, je reste à votre disposition pour tous renseignements complémentaires."
+    }
+  ]
+}

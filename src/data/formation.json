@@ -1,0 +1,25 @@
+{
+  "Formation": [
+    {
+      "userId": 1,
+      "id": 1,
+      "title": "1ère et 2ème année de bachelor",
+      "date": "Octobre 2021",
+      "location": "ESTIAM, Paris 20"
+    },
+    {
+      "userId": 1,
+      "id": 2,
+      "title": "Licence ingénieur",
+      "date": "Octobre 2020-Jullet 2021",
+      "location": "Sorbonne Université, Paris 05"
+    },
+    {
+      "userId": 1,
+      "id": 3,
+      "title": "Classe préparatoire",
+      "date": "Septembre 2019-Juin 2020",
+      "location": "Lycée Voltaire, Paris 11"
+    }
+  ]
+}

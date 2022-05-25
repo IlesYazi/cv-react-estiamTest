@@ -1,0 +1,71 @@
+{
+  "Experience": [
+    {
+      "userId":1,
+      "id": 5,
+      "title": "Projet CV en react",
+      "date": "Aujourd'hui",
+      "location": "Paris",
+      "text": "Merci de votre écoute !",
+      "missions": []
+    },
+    {
+      "userId":1,
+      "id": 1,
+      "title": "Projet Hackathon (école)",
+      "date": "2022",
+      "location": "Estiam",
+      "text": "Application complément de Teams dédiée à la vie étudiante de L'Estiam. Technologies utilisées :",
+      "missions": [
+        {
+          "id": 1,
+          "title": "Application Glide (maquette du projet)."
+        },
+        {
+          "id": 2,
+          "title": "Langage utilisé Kotlin (en autonomie)"
+        },
+        {
+          "id": 3,
+          "title": "Android Studio"
+        }
+      ]
+    },
+    {
+      "userId":1,
+      "id": 2,
+      "title": "Animateur Inclusion",
+      "date": "2021-2022",
+      "location": "Paris 20e - Ville de Paris",
+      "text": "Mission de l'animateur inclusion est de former les animateurs en poste à la sensibilisation de l'handicap.",
+      "missions": []
+    },
+    {
+      "userId":1,
+      "id": 3,
+      "title": "Animateur Vacataire",
+      "date": "Depuis Août 2020",
+      "location": "Paris 20e - Ville de Paris",
+      "text": "Durant les vacances scolaires ainsi que certains mercredi après-midi, je suis animateur en centres de loisirs à parité (CLAP), centre d'animation accueillant 30 enfants ordinaires et porteurs de handicap, âgés de 3 à 15 ans.",
+      "missions": []
+    },
+    {
+      "userId":1,
+      "id": 4,
+      "title": "Lets-gift",
+      "date": "Update 3 days ago",
+      "location": "Star : 0",
+      "text": "https://github.com/IlesYazi/lets-gift",
+      "missions": []
+    },
+    {
+      "userId":1,
+      "id": 5,
+      "title": "tex-website-wp",
+      "date": "Update on 1 Apr",
+      "location": "Star : 0",
+      "text": "https://github.com/IlesYazi/tex-website-wp",
+      "missions": []
+    }    
+  ]
+}
